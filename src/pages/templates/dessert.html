@@ -1,0 +1,61 @@
+<main class="menu">
+    <div class="menu__head">
+        <h1 class="menu-title">Behind each of our cups hides an
+            <span>amazing
+                surprise</span> </h1>
+        <div class="menu-choose">
+            <a is="router-link" href="/coffee" id="coffee" class="menu-button menu-button-hover">
+                <div>
+                </div>
+                <span>Coffee</span>
+            </a>
+            <a is="router-link" href="/tea" id="tea" class="menu-button">
+                <div>
+                </div>
+                <span>Tea</span>
+            </a>
+            <a is="router-link" href="/dessert" id="dessert" class="menu-button">
+                <div>
+                </div>
+                <span>Dessert</span>
+            </a>
+        </div>
+    </div>
+    <div class="catalog">
+        
+    </div>
+</main>
+
+<div class="modal-container">
+    <div class="modal">
+        <div class="modal__img" id="modal__img">
+        </div>
+        <form name="modal" class="modal__body">
+            <h3 class="modal__title">Marble cheesecake</h3>
+            <p class="modal__description">Philadelphia cheese with lemon zest on a light sponge cake and red currant jam</p> 
+            <p class="modal__size-title">Size</p>
+            <div class="modal__size">
+                <input type="radio" name="size" id="size-s" value="s">
+                <label for="size-s" class="modal__menu-button">
+                    <span class="modal__size-type">S</span>
+                    <span class="modal__size-name modal__size-name-s">200ml</span>
+                </label>
+                    <input type="radio" name="size" id="size-m" value="m">
+                <label for="size-m" class="modal__menu-button">
+                    <span class="modal__size-type">M</span>
+                    <span class="modal__size-name modal__size-name-m">300ml</span>
+                </label> 
+                    <input type="radio" name="size" id="size-l" value="l" >
+                <label for="size-l"  class="modal__menu-button">
+                    <span class="modal__size-type">L</span>
+                    <span class="modal__size-name modal__size-name-l">400ml</span>
+                </label>
+            </div>
+            <div class="modal__total">
+                <span>Total:</span>
+                <span id="totalPrice"></span>
+            </div>
+            <button type="submit" class="modal__close">Add to cart</button>
+        </form>
+    </div>
+  </div>

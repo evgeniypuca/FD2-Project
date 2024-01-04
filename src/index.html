@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <header>
+    <nav class="header__body">
+        <ul class="header__list">
+            <li><a is="router-link" href="/main">Main</a></li>
+            <li><a is="router-link" href="/contacts">Contacts</a></li>
+            <li><a is="router-link" href="/mobile">Mobile-App</a></li>
+            <li><a is="router-link" href="/menu">Menu</a></li>
+            <li><a is="router-link" href="/cart"><span id="cartCounter"></span> Сart</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<router-outlet>
+    <div style="position: absolute; background-color: red; color: white; font-size: 3em; inset: 0;">LOADING</div>
+</router-outlet>
+</div>    
+
+</body>
+</html>
